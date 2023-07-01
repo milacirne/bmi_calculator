@@ -1,0 +1,64 @@
+.title {
+    margin-bottom: 16px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 16px;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+.measurements {
+    margin: 16px 0 4px 0;
+    font-weight: bold;
+}
+
+.fullInput {
+    margin: 0 0 8px;
+}
+
+input {
+    max-width: 80px;
+    padding: 8px 0;
+    text-indent: 16px;
+    font-size: 14px;
+}
+
+input::placeholder {
+    font-size: 14px;
+    color: rgb(168, 165, 165);
+}
+
+span {
+    margin-left: 4px;
+}
+
+button {
+    width: 100%;
+    margin: 40px 0 0;
+    padding: 8px 0;
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 1s ease;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+button:hover {
+    background-color: #3f31ad;
+}
+
+.result {
+    font-size: 14px;
+}
